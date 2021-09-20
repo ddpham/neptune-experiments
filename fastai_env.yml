@@ -1,0 +1,19 @@
+name: dl
+channels:
+- conda-forge
+- pytorch
+- fastchan
+dependencies:
+- fastai
+- pytorch
+- numpy
+- pandas 
+- matplotlib
+- jupyter
+- jupyterlab
+- neptune-client
+- psutil
+- pip
+- pip:
+  - nbdev  
+  - neptune-client[fastai]
